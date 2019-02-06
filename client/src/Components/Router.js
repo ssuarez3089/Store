@@ -75,6 +75,7 @@ class Router extends Component {
                                     return (
                                         <SingleProducto 
                                             producto={this.state.productos[idProducto]}
+                                            key={idProducto}
                                         />
                                     )
                             }} />
